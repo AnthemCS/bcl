@@ -14,7 +14,8 @@ body {
 }
 .brand-name{
   font-size: 25px;
-  font-weight: 400;
+
+  text-transform: capitalize;
   color: #ffffff;
 }
 .brand-name:hover{
@@ -2026,8 +2027,15 @@ body {
   color: #f36;
 }
 .footer .media-wrap img {
-  height: 6rem;
+  height: 15rem;
 }
+
+.footer .media-wrap h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
 @media (max-width: 767px) {
   .footer .footer-lower .copyright {
     margin-bottom: 1rem;
